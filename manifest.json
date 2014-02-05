@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "We Call Them Newsies Now",
+    "version": "1.0",
+    "description": "All websites and blogs are now referred to as newsies.",
+    "content_scripts":
+    [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content_script.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
