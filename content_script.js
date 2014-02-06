@@ -28,7 +28,7 @@ function walk(node)
 
 function replaceText(textNode)
 {
-    // inspired by the cloud-to-butt extension at https://github.com/panicsteve/cloud-to-butt, and also this: 
+    // inspired by the cloud-to-butt extension at https://github.com/panicsteve/cloud-to-butt, and also this: http://t.co/EnK34DiFWh
     
     var t = textNode.nodeValue;
     
